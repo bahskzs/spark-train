@@ -17,39 +17,39 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
- <property>
-       <name>dfs.replication</name>
-       <value>1</value>
-   </property>
-<property>
-         <name>dfs.datanode.http.address</name>
-         <value>0.0.0.0:9526</value>
- </property>
-  <property>
-       <name>dfs.blocksize</name>
-       <value>64m</value>     
-   </property>
-     <property>
-        <name>dfs.namenode.name.dir</name>
-        <value>/opt/data/hadoop/nn</value>
-    </property>
-    <property>
-        <name>dfs.datanode.data.dir</name>
-        <value>/opt/data/hadoop/dn</value>
-    </property>
+<!-- <property>-->
+<!--       <name>dfs.replication</name>-->
+<!--       <value>1</value>-->
+<!--   </property>-->
+<!--<property>-->
+<!--         <name>dfs.datanode.http.address</name>-->
+<!--         <value>0.0.0.0:9526</value>-->
+<!-- </property>-->
+<!--  <property>-->
+<!--       <name>dfs.blocksize</name>-->
+<!--       <value>64m</value>-->
+<!--   </property>-->
+<!--     <property>-->
+<!--        <name>dfs.namenode.name.dir</name>-->
+<!--        <value>/opt/data/hadoop/nn</value>-->
+<!--    </property>-->
+<!--    <property>-->
+<!--        <name>dfs.datanode.data.dir</name>-->
+<!--        <value>/opt/data/hadoop/dn</value>-->
+<!--    </property>-->
 
- <property>
-  <name>dfs.permissions</name>
-  <value>false</value>
-</property>
- <property>
-   <name>dfs.namenode.checkpoint.dir</name>
-   <value>/opt/data/hadoop/snn</value>
-</property>
-<property>
-        <name>fs.checkpoint.edits.dir</name>
-        <value>/opt/data/hadoop/snn</value>
-</property>
+<!-- <property>-->
+<!--  <name>dfs.permissions</name>-->
+<!--  <value>false</value>-->
+<!--</property>-->
+<!-- <property>-->
+<!--   <name>dfs.namenode.checkpoint.dir</name>-->
+<!--   <value>/opt/data/hadoop/snn</value>-->
+<!--</property>-->
+<!--<property>-->
+<!--        <name>fs.checkpoint.edits.dir</name>-->
+<!--        <value>/opt/data/hadoop/snn</value>-->
+<!--</property>-->
 
 <property>
          <name>dfs.client.use.datanode.hostname</name>
